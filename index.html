@@ -8,14 +8,14 @@
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="./index.html">
           <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
         </a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#aboutus-section">Про нас</a></li>
+          <li><a href="#whyme-section">Чому ми</a></li>
+          <li><a href="#ourprocedures-section">Наші процедури</a></li>
+          <li><a href="#contacts-section">Контакти</a></li>
           <li>
             <a href="#"><!--tel--></a>
           </li>
@@ -31,14 +31,14 @@
     <main>
       <section>
         <h1>Косметологічна клініка <span>beauty zone</span></h1>
-        <button type="submit">Замовити дзвінок</button>
+        <button type="button">Замовити дзвінок</button>
         <p>
           <span>
             Запишись та отримай безкоштовну консультацію нашого косметолога
           </span>
         </p>
       </section>
-      <section>
+      <section id="aboutus-section">
         <h2>Перевтілюйтесь в beauty zone!</h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
@@ -49,13 +49,16 @@
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
         </p>
-        <img src="./images/woman on procedure.jpg" alt="Жінка до процедури" />
         <img
-          src="./images/woman after procedure.jpg"
+          src="./images/woman_befor_procedure.jpg"
+          alt="Жінка до процедури"
+        />
+        <img
+          src="./images/woman_after_procedure.jpg"
           alt="Жінка після процедури"
         />
       </section>
-      <section>
+      <section id="whyme-section">
         <h2>Чому люди обирають нас</h2>
         <ul>
           <li>
@@ -84,13 +87,13 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="ourprocedures-section">
         <h2>Наші процедури</h2>
         <ul>
           <li>
             <article>
               <img
-                src="./images/face mask.jpg"
+                src="./images/face-mask.jpg"
                 alt="Жінці наносять крем для обличчя"
               />
               <h3>Маски для обличчя</h3>
@@ -99,7 +102,7 @@
           <li>
             <article>
               <img
-                src="./images/facial injections.jpg"
+                src="./images/facial_njections.jpg"
                 alt="Жінці роблять інєкції для обличчя"
               />
               <h3>Ін'єкції для обличчя</h3>
@@ -108,7 +111,7 @@
           <li>
             <article>
               <img
-                src="./images/facial cleansing.jpg"
+                src="./images/facial_cleansing.jpg"
                 alt="Жін роблять Очищення обличчя"
               />
               <h3>Очищення обличчя</h3>
@@ -116,20 +119,29 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="contacts-section">
         <h2>Як нас знайти</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.4757931944755!2d30.772648476560754!3d50.506713371603304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0LLRg9C70LjRhtGPINCi0LDRgNCw0YHQsCDQqNC10LLRh9C10L3QutCwLCA1LCDQkdGA0L7QstCw0YDQuCwg0JrQuNGX0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMDc0MDA!5e0!3m2!1suk!2sua!4v1795179240309!5m2!1suk!2sua"
+          width="605"
+          height="481"
+          title="Карта розташування клініки Beauty Zone"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
       </section>
     </main>
     <footer>
       <nav>
-        <a href="#">
+        <a href="./index.html">
           <img src="./images/logo.svg" alt="Логотип Beauty Zone" />
         </a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#aboutus-section">Про нас</a></li>
+          <li><a href="#whyme-section">Чому ми</a></li>
+          <li><a href="#ourprocedures-section">Наші процедури</a></li>
+          <li><a href="#contacts-section">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -139,9 +151,9 @@
             <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/yphGCqGGc4X1ytrWA" target="_blank"
-              >Україна, м. Київ, вул. Тараса Шевченка 5</a
-            >
+            <a href="https://maps.app.goo.gl/yphGCqGGc4X1ytrWA" target="_blank">
+              Україна, м. Київ, вул. Тараса Шевченка 5
+            </a>
           </li>
           <li>
             <a href="#"><!--tel--></a>
@@ -152,9 +164,9 @@
           <li>
             <a href="#"><!--instagram--></a>
           </li>
+          <li><a href="#" target="_blank">Політика конфіденційності</a></li>
         </ul>
-        <li><a href="#" target="_blank">Політика конфіденційності</a></li>
-        <p>© 2022 Дані захищені</p>
+        <p>&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
